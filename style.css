@@ -1,17 +1,6 @@
 body {
     background-color: #d5f1de; /* 浅绿色 */
-    bg-color-1 {
-        background-color: #80d59b;
-    }
-    bg-color-2 {
-        background-color: #39aa5d;
-    }
-    bg-color-3 {
-        background-color: #1c552f;
-    }
-    bg-color-4 {
-        background-color: #012b17;
-    }
+    
     text-align: center;
     font-family: Arial, sans-serif;
     margin: 0;
