@@ -48,18 +48,18 @@ noButton.addEventListener("click", function () {
     noButton.innerText = noTexts[clickCount - 1];
   }
   //改变背景颜色
-  if (clickCount === 1) body.style.backgroundColor = "#80d59b"； // 绿
-  if (clickCount === 2) body.style.backgroundColor = "#39aa5d"； // 
-  if (clickCount === 3) body.style.backgroundColor = "#1c552f"； // 
-  if (clickCount === 4) body.style.backgroundColor = "#012b17"； // 
-  if (clickCount >= 5) body.style.backgroundColor = "#012b17"； // 
+  if (clickCount === 1) body.style.backgroundColor = "#80d59b"; // 绿
+  if (clickCount === 2) body.style.backgroundColor = "#39aa5d"; // 
+  if (clickCount === 3) body.style.backgroundColor = "#1c552f"; // 
+  if (clickCount === 4) body.style.backgroundColor = "#012b17"; // 
+  if (clickCount >= 5) body.style.backgroundColor = "#012b17"; // 
 
   // 图片变化（前 5 次变化）
-  if (clickCount === 1) mainImage.src = "images/shocked.png"； // 震惊
-  if (clickCount === 2) mainImage.src = "images/think.png"； // 思考
-  if (clickCount === 3) mainImage.src = "images/angry.png"； // 生气
-  if (clickCount === 4) mainImage.src = "images/crying.png"； // 哭
-  if (clickCount >= 5) mainImage.src = "images/crying.png"； // 之后一直是哭
+  if (clickCount === 1) mainImage.src = "images/shocked.png"; // 震惊
+  if (clickCount === 2) mainImage.src = "images/think.png"; // 思考
+  if (clickCount === 3) mainImage.src = "images/angry.png"; // 生气
+  if (clickCount === 4) mainImage.src = "images/crying.png"; // 哭
+  if (clickCount >= 5) mainImage.src = "images/crying.png"; // 之后一直是哭
 });
 
 // Yes 按钮点击后，进入表白成功页面
