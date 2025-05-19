@@ -2,6 +2,7 @@ let yesButton = document.getElementById("yes");
 let noButton = document.getElementById("no");
 let questionText = document.getElementById("question");
 let mainImage = document.getElementById("mainImage");
+let body = document.body;
 
 const params = new URLSearchParams(window.location.search);
 let username = params.get("name");
